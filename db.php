@@ -5,7 +5,7 @@ class Database {
     private static function getLink ( ) {
 		if(self::$link==null){
 			try {
-				self::$link = new PDO("mysql:host=curi.mysql.database.azure.com; dbname=gps;charset=utf8", "curytravez@curi", "Atahualpacury1993");
+				self::$link = new PDO("mysql:host=jhomar.mysql.database.azure.com; dbname=registro;charset=utf8", "jhomarklever@jhomar", "Root1234");
 				self::$link->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, true);
 				return(self::$link);
 			} catch (PDOException $e) {
