@@ -13,7 +13,7 @@
 		for($i=0; $i<count($tabla); $i++){
 			$u=$tabla[$i];
 			
-			echo("<tabal>
+			echo("<tabla>
 					<id>$u[id]</id>
 				
 					<imei>".utf8_encode($u['imei'])."</imei>
